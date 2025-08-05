@@ -1,0 +1,106 @@
+# 🎧 Predictive Modeling of Podcast Engagement Using Machine Learning
+
+## 📌 Objective
+This project aims to predict the **listening time (in minutes)** for podcast episodes based on various features like episode duration, genre, host/guest popularity, number of ads, and sentiment. It uses supervised machine learning models to assist podcast platforms in optimizing content engagement.
+
+---
+
+## 📁 Project Structure
+
+```
+PODCAST_PROJECT/
+│
+├── app.py                  # Flask web application
+├── dep/                    # Dependencies (e.g. requirements.txt)
+├── templates/              # HTML templates
+├── .gitignore              # Ignore .pkl files, cache, etc.
+├── download_model.sh       # Shell script to download .pkl model files
+├── feature_columns.pkl     # (Ignored from Git - download required)
+├── random_forest.pkl       # (Ignored from Git - download required)
+├── scaler.pkl              # (Ignored from Git - download required)
+├── README.md               # Project documentation (this file)
+```
+
+---
+
+## 🧠 Features Used
+- Podcast Name
+- Episode Title & Length
+- Genre
+- Host & Guest Popularity
+- Publication Day and Time
+- Number of Ads
+- Episode Sentiment
+- Listening Time (target)
+
+---
+
+## ⚙️ Tech Stack
+- Python 3.x
+- Flask
+- scikit-learn
+- Pandas, NumPy
+- MySQL (for DB integration)
+- Git + GitHub
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repo
+```bash
+git clone https://github.com/Pratik373/Predictive-Modeling-of-Podcast-Engagement-using-Machine-Learning.git
+cd Predictive-Modeling-of-Podcast-Engagement-using-Machine-Learning
+```
+
+### 2️⃣ Install Dependencies
+```bash
+pip install -r dep/requirements.txt
+```
+
+### 3️⃣ Download Trained Models
+Run the following script to fetch `.pkl` files from Google Drive:
+```bash
+chmod +x download_model.sh
+./download_model.sh
+```
+
+This will download:
+- `random_forest.pkl`
+- `scaler.pkl`
+- `feature_columns.pkl`
+
+⚠️ These files are ignored in Git for size reasons.
+
+### 4️⃣ Run the Flask App
+```bash
+python app.py
+```
+
+Visit `http://127.0.0.1:5000/` in your browser.
+
+---
+
+## 📈 Evaluation Metric
+
+The model is evaluated using **Mean Average Precision at K (MAP@5)** — suitable for ranking predicted engagement levels.
+
+---
+
+## 📄 License
+
+This project is licensed under the [Apache 2.0 License](LICENSE).
+
+---
+
+## 👥 Contributors
+
+- **Chinmay Thete** – Model building, feature engineering, deployment
+- **Pratik373** – GitHub maintainer
+- **Vaibhav9006** – Frontend integration
+
+---
+
+## 📬 Contact
+
+For queries, email: [michinmaythete@gmail.com](mailto:michinmaythete@gmail.com)
