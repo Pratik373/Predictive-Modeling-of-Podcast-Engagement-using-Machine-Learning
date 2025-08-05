@@ -15,7 +15,7 @@ PODCAST_PROJECT/
 ├── templates/              # HTML templates
 ├── .gitignore              # Ignore .pkl files, cache, etc.
 ├── download_model.sh       # Shell script to download .pkl model files
-├── feature_columns.pkl     # (Ignored from Git - download required)
+├── feature_columns.pkl     # Feature columns
 ├── random_forest.pkl       # (Ignored from Git - download required)
 ├── scaler.pkl              # (Ignored from Git - download required)
 ├── README.md               # Project documentation (this file)
