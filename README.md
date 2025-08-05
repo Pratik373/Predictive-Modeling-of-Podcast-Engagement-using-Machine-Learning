@@ -83,7 +83,7 @@ Visit `http://127.0.0.1:5000/` in your browser.
 
 ## 📈 Evaluation Metric
 
-The model is evaluated using **Mean Average Precision at K (MAP@5)** — suitable for ranking predicted engagement levels.
+The model is evaluated using **RMSE and R2score** — RMSE effectively measures the average magnitude of prediction errors, providing insight into how close the predicted engagement levels are to the actual values, while R² score indicates how well the model explains the variability of the engagement data, making both metrics suitable for assessing and ranking predicted engagement levels accurately..
 
 ---
 
