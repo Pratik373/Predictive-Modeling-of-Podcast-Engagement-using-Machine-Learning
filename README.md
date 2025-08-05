@@ -68,7 +68,7 @@ chmod +x download_model.sh
 This will download:
 - `random_forest.pkl`
 - `scaler.pkl`
-- `feature_columns.pkl`
+
 
 ⚠️ These files are ignored in Git for size reasons.
 
