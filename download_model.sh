@@ -1,4 +1,11 @@
 #!/bin/bash
+# Author:Chinmay Thete
+# Date Created:05/08/2025
+# Modification Date:05/08/2025
+# Description: Download pickle file of model.
+# Usage:bash download_model.sh
+# prerequiest:Files should be on Google Drive.
+
 
 echo "📥 Downloading model files from Google Drive..."
 
