@@ -69,7 +69,6 @@ This will download:
 - `random_forest.pkl`
 - `scaler.pkl`
 
-
 ⚠️ These files are ignored in Git for size reasons.
 
 ### 4️⃣ Run the Flask App
@@ -83,7 +82,7 @@ Visit `http://127.0.0.1:5000/` in your browser.
 
 ## 📈 Evaluation Metric
 
-The model is evaluated using **RMSE and R2score** — RMSE effectively measures the average magnitude of prediction errors, providing insight into how close the predicted engagement levels are to the actual values, while R² score indicates how well the model explains the variability of the engagement data, making both metrics suitable for assessing and ranking predicted engagement levels accurately..
+The model is evaluated using **RMSE and R2score** — RMSE effectively measures the average magnitude of prediction errors, providing insight into how close the predicted engagement levels are to the actual values, while R² score indicates how well the model explains the variability of the engagement data, making both metrics suitable for assessing and ranking predicted engagement levels accurately.
 
 ---
 
@@ -95,9 +94,10 @@ This project is licensed under the [Apache 2.0 License](LICENSE).
 
 ## 👥 Contributors
 
-- **Chinmay Thete** – Model building, feature engineering, deployment
-- **Pratik373** – GitHub maintainer
-- **Vaibhav9006** – Frontend integration
+- **Chinmay Thete** – Model building, feature engineering,Data cleaning
+- **Pratik373** – GitHub maintainer,Data Visualization
+- **Vaibhav9006** – Frontend integration,deployment
+- **Tejas Sorte** – statistical analysis,Neural Network
 
 ---
 
