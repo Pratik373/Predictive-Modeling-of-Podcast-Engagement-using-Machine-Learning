@@ -1,22 +1,22 @@
-#!/bin/bash
-# Author:Chinmay Thete
-# Date Created:05/08/2025
-# Modification Date:06/08/2025
-# Description: Download pickle file of model.
-# Usage:bash download_model.sh
-# prerequiest:Files should be on Google Drive.
+#!/usr/bin/env bash
+# Author: Chinmay Thete
+# Date: 07-Aug-2025
+# Description: Downloads model .pkl files from Google Drive using gdown
 
+# Activate virtual environment if needed
+# source myenv/bin/activate
 
-echo "📥 Downloading model files from Google Drive..."
+# Install gdown if not already installed
+pip show gdown &>/dev/null || pip install gdown
 
-# Replace these with your actual Google Drive file IDs
+# File IDs (update these as per your actual file IDs)
 RF_ID="1udq4rkuf1ZEcOpPidSo5CTXPAM10Klqx"
 SCALER_ID="1Eq595Pnp8L0-106dz5UyzMq0EwKSGQZV"
+#COLS_ID="YOUR_FEATURE_COLUMNS_FILE_ID"
 
+# Download files
+gdown --id "$RF_ID" --output random_forest.pkl
+gdown --id "$SCALER_ID" --output scaler.pkl
+#gdown --id "$COLS_ID" --output feature_columns.pkl
 
-# Download each file using curl
-curl -L -o random_forest.pkl "https://drive.google.com/uc?export=download&id=${RF_ID}"
-curl -L -o scaler.pkl "https://drive.google.com/uc?export=download&id=${SCALER_ID}"
-
-
-echo "All model files downloaded successfully!"
+echo "✅ All model files downloaded successfully!"
