@@ -12,7 +12,6 @@ PODCAST_PROJECT/
 │
 ├── app.py                  # Flask web application
 ├── dep/                    # Dependencies (e.g. requirements.txt)
-├── templates/              # HTML templates
 ├── .gitignore              # Ignore .pkl files, cache, etc.
 ├── download_model.sh       # Shell script to download .pkl model files
 ├── feature_columns.pkl     # Feature columns
@@ -88,7 +87,7 @@ The model is evaluated using **RMSE and R2score** — RMSE effectively measures 
 
 ## 📄 License
 
-This project is licensed under the [Apache 2.0 License](LICENSE)
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
