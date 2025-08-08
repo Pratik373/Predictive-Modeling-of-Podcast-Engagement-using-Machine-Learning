@@ -85,7 +85,7 @@ The model is evaluated using **RMSE and R2score** — RMSE effectively measures 
 
 ---
 ## Tableau Link
-[View my Tableau Dashboard](https://public.tableau.com/views/your_dashboard_link_here)
+https://public.tableau.com/app/profile/pratik.dange/viz/Podcast_Project_Dashboard/Dashboard2
 
 
 ## 📄 License
