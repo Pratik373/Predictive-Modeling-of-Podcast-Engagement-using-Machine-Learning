@@ -100,6 +100,6 @@ This project is licensed under the [MIT License](LICENSE).
 ## 👥 Contributors
 
 - **Chinmay Thete** – Model building, feature engineering, Data cleaning.
-- **Pratik373** – Exploratory Data Analysis,Data Visualization, Model building, UI.
+- **Pratik373** – Exploratory Data Analysis, Data Visualization, Model building, UI.
 - **Vaibhav9006** – Statistical analysis, Data Visualization, Model building, UI and deployment.
 - **Tejas Sorte** – statistical analysis,Model building, Neural Network.
