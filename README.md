@@ -99,13 +99,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 👥 Contributors
 
-- **Chinmay Thete** – Model building, feature engineering, Data cleaning
-- **Pratik373** – GitHub maintainer, Data Visualization, UI
-- **Vaibhav9006** –  Data Visualization, UI and deployment
-- **Tejas Sorte** – statistical analysis,Neural Network
-
----
-
-## 📬 Contact
-
-For queries, email: [michinmaythete@gmail.com](mailto:michinmaythete@gmail.com)
+- **Chinmay Thete** – Model building, feature engineering, Data cleaning.
+- **Pratik373** – Exploratory Data Analysis,Data Visualization, Model building, UI.
+- **Vaibhav9006** – Statistical analysis, Data Visualization, Model building, UI and deployment.
+- **Tejas Sorte** – statistical analysis,Model building, Neural Network.
