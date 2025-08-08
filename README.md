@@ -84,6 +84,9 @@ Visit `http://127.0.0.1:5000/` in your browser.
 The model is evaluated using **RMSE and R2score** — RMSE effectively measures the average magnitude of prediction errors, providing insight into how close the predicted engagement levels are to the actual values, while R² score indicates how well the model explains the variability of the engagement data, making both metrics suitable for assessing and ranking predicted engagement levels accurately.
 
 ---
+## Tableau Link
+[View my Tableau Dashboard](https://public.tableau.com/views/your_dashboard_link_here)
+
 
 ## 📄 License
 
@@ -95,7 +98,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 - **Chinmay Thete** – Model building, feature engineering,Data cleaning
 - **Pratik373** – GitHub maintainer,Data Visualization
-- **Vaibhav9006** –  Data Visualization , UI and deployment
+- **Vaibhav9006** –  Data Visualization, UI and deployment
 - **Tejas Sorte** – statistical analysis,Neural Network
 
 ---
