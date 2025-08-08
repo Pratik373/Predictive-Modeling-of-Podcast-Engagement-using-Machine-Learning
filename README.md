@@ -89,6 +89,7 @@ https://public.tableau.com/app/profile/pratik.dange/viz/Podcast_Project_Dashboar
 
 <img width="1366" height="719" alt="image" src="https://github.com/user-attachments/assets/4709b2f0-da38-4e86-8f6b-c801f7bceaf9" />
 
+<img width="1851" height="742" alt="image" src="https://github.com/user-attachments/assets/6590e807-70fa-4d03-95b3-be81153e479b" />
 
 
 ## 📄 License
