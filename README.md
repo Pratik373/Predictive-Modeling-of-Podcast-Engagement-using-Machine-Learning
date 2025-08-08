@@ -95,7 +95,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 - **Chinmay Thete** – Model building, feature engineering,Data cleaning
 - **Pratik373** – GitHub maintainer,Data Visualization
-- **Vaibhav9006** – Frontend integration,deployment
+- **Vaibhav9006** –  Data Visualization , UI and deployment
 - **Tejas Sorte** – statistical analysis,Neural Network
 
 ---
