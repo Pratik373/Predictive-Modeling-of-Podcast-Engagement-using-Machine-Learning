@@ -87,6 +87,9 @@ The model is evaluated using **RMSE and R2score** — RMSE effectively measures 
 ## Tableau Link
 https://public.tableau.com/app/profile/pratik.dange/viz/Podcast_Project_Dashboard/Dashboard2
 
+<img width="1366" height="719" alt="image" src="https://github.com/user-attachments/assets/4709b2f0-da38-4e86-8f6b-c801f7bceaf9" />
+
+
 
 ## 📄 License
 
@@ -96,8 +99,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 👥 Contributors
 
-- **Chinmay Thete** – Model building, feature engineering,Data cleaning
-- **Pratik373** – GitHub maintainer,Data Visualization
+- **Chinmay Thete** – Model building, feature engineering, Data cleaning
+- **Pratik373** – GitHub maintainer, Data Visualization, UI
 - **Vaibhav9006** –  Data Visualization, UI and deployment
 - **Tejas Sorte** – statistical analysis,Neural Network
 
