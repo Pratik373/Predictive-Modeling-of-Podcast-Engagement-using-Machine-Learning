@@ -11,7 +11,7 @@ This project aims to predict the **listening time (in minutes)** for podcast epi
 PODCAST_PROJECT/
 │
 ├── app.py                  # Flask web application
-├── dep/                    # Dependencies (e.g. requirements.txt)
+├── dep/                    # Dependencies
 ├── .gitignore              # Ignore .pkl files, cache, etc.
 ├── download_model.sh       # Shell script to download .pkl model files
 ├── feature_columns.pkl     # Feature columns
